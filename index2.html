@@ -1,0 +1,433 @@
+<html>
+
+<head>
+	<title>Music Player</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="styles2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- --------------Navigation Section-------------- -->
+	<section id="navigation-section">
+		<div id="nav-bar">
+			<img class="musicplayer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24yScQdxqExIKdmXhXXYk-Xa6exm_nP09cA&usqp=CAU">
+			<p class="header">Ninja Studio</p>
+
+			<div class="search-bar">
+				<i class="fas fa-search"></i>
+				<input type="text" placeholder="Search">
+				<a href=""><i class="fas fa-microphone"></i></a>
+			</div>
+			<a href=""><i class="fas fa-bell"></i></a>
+			<img class="profile-pic" src="meee.jpeg">
+		</div>
+
+        <!-- ------------Navigation Dropwdown----------------- -->
+		<div class="dropdown">
+			<button class="toggle-div"><i class="fas fa-bars"></i></button>
+			<div class="dropdown-content">
+				<ul>
+					<li>
+						<img class="profile-img" src="meee.jpeg">
+					</li><br>
+					<li>
+						<div class="search-bar">
+							<i class="fas fa-search"></i>
+							<input type="text" placeholder="Search">
+							<a href=""><i class="fas fa-microphone"></i></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- ------------Main Section -------------- -->
+	<main class="main-container">
+
+        <!-- Main Artist section -->
+        <div class="main-content">
+            <section class="head-artist-container color-selected">
+                <div class="head-artist-img-container">
+                    <img class="head-artist-img" src="https://m.media-amazon.com/images/I/31+yHRJ0vqS._SL1000_.jpg" alt="ed-sheeran">
+                </div>
+                <div class="head-artist-details-container">
+                    <div class="head-artist-details-header">
+                        <div class="head-artist-name">
+                            <h3>
+                                Ed Sheeran
+                            </h3>
+                            <h5>English Singer</h5>
+                        </div>
+                        <div class="head-artist-followers">
+                            <h5>1524 Followers</h5>
+                        </div>
+                    </div>
+                    <div class="head-artist-details-body">
+                        <p>
+                            Edward Christopher Sheeran, MBE is an English singer, songwriter, record producer, and
+                            actor. In early 2011, Sheeran independently released the extended play, No. 5 Collaborations
+                            Project. After signing with Asylum Records, his debut album, +, was released in September
+                            2011 and topped the UK Albums Chart.
+                        </p>
+                    </div>
+                    <div class="head-artist-details-Footer">
+                        <div class="head-artist-play-button-container">
+                            <button type="button" class="head-artist-btn">Play All</button>
+                            <p>186 Tracks | 85 Albums</p>
+                        </div>
+                        <div class="head-artist-follow">
+                            Follow
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- -----------Popular Songs by the Artist---------- -->
+
+            <div class="popular-artist-songs-list">
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">01</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://i.pinimg.com/736x/d7/57/26/d75726f762219cf66b60c4c0e202b8d4.jpg" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Perfect</h4>
+                        <p>Ed Sheeran</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">02</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://m.media-amazon.com/images/I/31+yHRJ0vqS._SL1000_.jpg" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Despacito</h4>
+                        <p>Luis Fonsi</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">03</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Reputation.png" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Dynamite</h4>
+                        <p>BTS</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">04</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://external-preview.redd.it/Wdq00H8RbYCXpWFj2-BIVJUYtcXMYBLhrTIR-T-aD7Q.jpg?auto=webp&s=d63d94abe3915c57795a3bd9239247efcb753454" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>For You</h4>
+                        <p>Selena Gomez</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">05</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://static.billboard.com/files/2020/03/bebe-rexha-grammys-rc-2020-xk-billboard-1548-1584456328-compressed.jpg" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Pain</h4>
+                        <p>Ryan Jones</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">06</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://thumbor.forbes.com/thumbor/1950x1950/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ceec355142c500008f42068%2FRihanna-Diamond-Ball-Forbes-Women%2F0x0.jpg%3FcropX1%3D32%26cropX2%3D1982%26cropY1%3D257%26cropY2%3D2207" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Perfect</h4>
+                        <p>Ed Sheeran</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">07</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://static.billboard.com/files/2020/03/bebe-rexha-grammys-rc-2020-xk-billboard-1548-1584456328-compressed.jpg" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Despacito</h4>
+                        <p>Luis Fonsi</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">08</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTUzMDQzMzI4MjU2OTc1ODc5/canadian-pop-musician-shawn-mendes-photographed-backstage-before-a-live-performance-at-the-hammersmith-apollo-in-london-on-may-5-2016-photo-by-will-ireland_total-guitar-magazine-via-getty-images-500.jpg" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Dynamite</h4>
+                        <p>BTS</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song">
+                    <p class="numbering">09</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Reputation.png" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>For You</h4>
+                        <p>Selena Gomez</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="popular-artist-song color-selected-song last-song">
+                    <p class="numbering">10</p>
+                    <div class="popular-a-song-img-container">
+                        <img class="popular-a-song-img" src="https://variety.com/wp-content/uploads/2021/01/000003750003.jpg?w=681&h=383&crop=1" alt="shape-of-you">
+                    </div>
+                    <div class="popular-a-song-details">
+                        <h4>Pain</h4>
+                        <p>Ryan Jones</p>
+                    </div>
+                    <div class="fav-icon-pop-art">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!-- -------------Aside Section for the Similar Artists---------------- -->
+
+        <aside class="aside-section">
+
+            <section class="similar-artist-section">
+                <div class="artist-heading section-heading">
+                    <h4>
+                        Similar Artist
+                    </h4>
+                </div>
+                <div class="artist-container">
+
+                    <div class="artist">
+                        <a href="artist.html">
+                            <div class="artist-image-container">
+                                <img class="artist-image" src="https://images.squarespace-cdn.com/content/v1/5889102ed1758e78188f2d83/1546465505959-AVAUH05TNIIB76ROSUVA/Alec+Benjamin.jpg" alt="Justin bieber">
+                            </div>
+                            <div class="artist-name">
+                                <h5>Justin Bieber</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="artist">
+                        <a href="artist.html">
+                            <div class="artist-image-container">
+                                <img class="artist-image" src="https://www.indigomusic.com/wp-content/uploads/2019/11/camila-2.jpg" alt="Taylor Swift">
+                            </div>
+                            <div class="artist-name">
+                                <h5>Taylor Swift</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="artist">
+                        <a href="artist.html">
+                            <div class="artist-image-container">
+                                <img class="artist-image" src="https://media.gq-magazine.co.uk/photos/5e305ad578a6bb00089c45f4/4:3/w_1440,h_1080,c_limit/20200128-Mendes-01.jpg" alt= "ColdPlay">
+                            </div>
+                            <div class="artist-name">
+                                <h5>ColdPlay</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="artist">
+                        <a href="artist.html">
+                            <div class="artist-image-container">
+                                <img class="artist-image" src="https://variety.com/wp-content/uploads/2020/01/taylor-swift-variety-cover-5-16x9-1000.jpg?w=681&h=383&crop=1" alt="Bruno Mars">
+                            </div>
+                            <div class="artist-name">
+                                <h5>Bruno Mars</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="artist">
+                        <a href="artist.html">
+                            <div class="artist-image-container">
+                                <img class="artist-image" src="https://www.udiscovermusic.com/wp-content/uploads/2019/07/Justin-Bieber-Purpose-press-shot-CREDIT-Peter-Yang-1000-1000x600.jpg" alt="Selena Gomez">
+                            </div>
+                            <div class="artist-name">
+                                <h5>Selena Gomez</h5>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="artist">
+                        <a href="artist.html">
+                            <div class="artist-image-container">
+                                <img class="artist-image" src="https://images.squarespace-cdn.com/content/v1/5889102ed1758e78188f2d83/1546465505959-AVAUH05TNIIB76ROSUVA/Alec+Benjamin.jpg" alt="Justin bieber">
+                            </div>
+                            <div class="artist-name">
+                                <h5>Justin Bieber</h5>
+                            </div>
+                        </a>
+                    </div>
+
+            </section>
+
+        </aside>
+    </main>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- ---------------------Footer--------------------- -->
+	<footer class="play-bar">
+        <div class="footer-container">
+            <div class="playing-song">
+               <!-- ----------Current Song Playing------------- -->
+                <div class="playing-song-img-container">
+                    <img class="playing-song-img" src="https://i.pinimg.com/originals/93/46/ae/9346ae87fe8ffc5b2a9903c934a98832.jpg" alt="worry-bout-us">
+                </div>
+                <div class="playing-song-details">
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran</p>
+                </div>
+                <div class="fav-icon-bar">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                </div>
+            </div>
+
+           <!-- --------Song Controls----------- -->
+            <div class="footer-controls">
+                <div class="footer-controls-button">
+                    <div class="icon-size" id="  shuffle">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <div class="icon-size" id="previous">
+                        <i class="fas fa-backward"></i>
+                    </div>
+                    <input type="checkbox" id="play-pause">
+                    <label for="play-pause">
+                        <div id="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div id="pause">
+                            <i class="fas fa-pause"></i>
+                        </div>
+                    </label>
+                    <div class="icon-size" id="next">
+                        <i class="fas fa-forward"></i>
+                    </div>
+                    <div class="icon-size" id="repeat">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                </div>
+                <div class="footer-controls-progress">
+                    <p>1:05</p>
+                    <input type="range">
+                    <p>4:44</p>
+                </div>
+            </div>
+
+            <div class="sound-controls">
+                <div id="queue">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div id="cast">
+                    <i class="fab fa-chromecast"></i>
+                </div>
+
+                <div id="volume-dwn">
+                    <i class="fas fa-volume-down"></i>
+                </div>
+                <input class="vol-control" type="range">
+                <div id="volume-up">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+
+            </div>
+
+		</div>
+
+	</footer>
+	
+	
+	
+</body>
+
+</html>
